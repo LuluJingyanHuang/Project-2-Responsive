@@ -1,0 +1,293 @@
+/* CSS style sheet for project 2  */
+/* =================================
+  Element Styles
+==================================== */
+body{
+  font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+  text-align: center;
+  color:#444444;
+
+}
+
+.main-nav a:hover {
+  color:black;
+  border-bottom-color:black;
+
+}
+
+h1 {
+  color:#444444;
+  text-align: center;
+}
+
+h3{
+  margin:auto;
+  width: 80%;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+  color:#444444;
+  font-size: 1.5em;
+}
+
+.profile-image {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width:400px;
+    transition: all .5s;
+
+}
+
+img{
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom: 20px;
+  display: block;
+  max-width: 300px;
+}
+
+span{
+  font-size: 1.5em;
+
+}
+
+.name-tag{
+  font-size: 1.8em;
+
+
+
+
+}
+
+.back-to-top{
+  font-size:1em;
+  font-style: normal;
+
+
+
+
+}
+/* =================================
+ Layout Styles
+==================================== */
+/* .container{
+    text-align: center;
+} */
+.main-header{
+  background-color:#F5F5F5;
+  padding-top:10px;
+  padding-bottom: 30px;
+
+}
+.main-nav{
+  display:block;
+  color:white;
+}
+
+.main-nav li {
+    background-color: white;
+    padding:20px 0;
+    /* border: solid 1px #444444; */
+    width:90%;
+    margin:5px auto;
+    font-weight: bold;
+}
+
+.contact{
+  background-color:#F5F5F5;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #faf7f7;
+}
+
+.foot {
+    margin: 30px 5px 0px 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.main-nav-bottom{
+    display: none;
+}
+
+.container {
+    position:relative;
+
+}
+
+/* ========================================
+Media Queries
+======================================== */
+
+@media (min-width:768px) {
+
+      .main-nav li{
+        display: inline;
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 15px;
+        text-align: center;
+        background-color: transparent;
+      }
+
+      .profile-image{
+          width:20%;
+          bottom:8%;
+          right:10px;
+          display: inline-block;
+          float:right;
+          position:absolute;
+
+
+      }
+
+      .myself{
+          padding:5% 0;
+          word-break:normal;
+          max-width: 50%;
+          align-self: center;
+
+
+
+      }
+      .left {
+        float:left;
+        width: 40%;
+        margin-left: 7%;
+
+
+
+      }
+
+    .right {
+        float: right;
+        width: 40%;
+        margin-right: 7%;
+
+    }
+
+    .middle1 {
+      float:left;
+      width: 40%;
+      margin-left: 7%;
+
+    }
+
+    .middle2 {
+      float: right;
+      width: 40%;
+      margin-right: 7%;
+
+    }
+    .portfolio {
+      background-color: white;
+
+    }
+    .wrap {
+        width:90%;
+        margin: auto;
+        height:150px;
+    }
+
+    .main-nav-bottom{
+        display: inline-flex;
+    }
+
+    .main-nav-bottom li {
+        margin-left: 20px;
+}
+
+    .back-to-top {
+        display: none;
+
+    }
+
+}
+
+ @media (min-width:1024px) {
+   .header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-left: 5px;
+
+   }
+
+   h1 {
+     margin-top: 0;
+
+   }
+
+
+  .middle1{
+      float:left;
+      width:30%;
+      margin: auto;
+  }
+
+  .middle2{
+          float:left;
+          width:30%;
+          margin:auto;
+
+}
+
+.left{
+    float:left;
+    width:30%;
+      margin: auto;
+}
+
+.right{
+        float:left;
+        width:30%;
+          margin: auto;
+}
+
+.portfolio {
+    padding-left: 10%;
+
+}
+
+.back-to-top {
+    display: none;
+
+}
+
+.main-nav-bottom{
+    display: inline-flex;
+}
+
+.main-nav-bottom li {
+    margin-left: 20px;
+
+}
+
+.profile-image{
+    margin-bottom: 0px;
+
+}
+
+
+}
+
+
+
+
+/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}

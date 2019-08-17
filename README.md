@@ -1,2 +1,2 @@
-# Treehouse-02
- Responsive 
+# Project-2
+ Responsive Layout 
