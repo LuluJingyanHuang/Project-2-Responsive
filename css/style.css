@@ -34,6 +34,10 @@ a {
   font-size: 1.5em;
 }
 
+h2{
+  align-self: center;
+
+}
 
 .profile-image {
     margin-top: 80px;
@@ -290,5 +294,3 @@ Media Queries
 		display: table;
 		clear: both;
 	}
-
-}
